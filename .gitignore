@@ -1,2 +1,4 @@
 fp16_add_bench
 fp16_bench
+tbl_s8
+tbl_u8
