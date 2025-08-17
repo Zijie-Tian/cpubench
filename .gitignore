@@ -1,4 +1,38 @@
+# 构建目录
+build/
+cmake-build-*/
+out/
+
+# CMake生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+
+# 编译产物
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# 旧的二进制文件
 fp16_add_bench
 fp16_bench
 tbl_s8
 tbl_u8
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 调试文件
+*.dSYM/
+core
+vgcore.*
